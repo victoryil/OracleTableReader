@@ -1,0 +1,12 @@
+example of load
+-U (user)
+SYSTEM
+-p (password)
+pollo
+-t (dbtable, only for spark)
+SYSTEM.discounts
+-u (url)
+jdbc:oracle:thin:@localhost:1521/XEPDB1
+-q (query, only for oracle)
+"select * from system.discounts"
+-o (if activated, not use spark)
